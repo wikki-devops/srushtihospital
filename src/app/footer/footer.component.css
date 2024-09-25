@@ -1,0 +1,23 @@
+.about-working-hour h3,
+.about-service-list h3,
+.footer-contact h3 {
+    color: var(--secondary-color);
+}
+
+.about-service-list ul li a {
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+}
+.footer-contact-details .footer-info-box{
+    padding-left: 0px !important;
+}

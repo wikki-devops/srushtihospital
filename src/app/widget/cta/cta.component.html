@@ -1,0 +1,67 @@
+<div class="container" style="padding: 40px 0px;">
+    <div class="row align-items-center"
+        style="background-image: url(assets/images/cta.png); background-size: cover; padding: 60px;">
+        <div class="col-lg-6">
+            <div class="">
+                <div class="section-title">
+                    <h1 class="text-anime-style-2" data-cursor="-opaque" style="font-size: 45px;">Together, we strive to make your dreams of a
+                        family come true</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="appointment-form">
+                <div class="hero-appointment-form-title">
+                    <h2 class="text-anime-style-2"><span>Book</span> Appointment</h2>
+                    <p class="wow fadeInUp">Easily schedule your appointment by a Filling out our simple form</p>
+                </div>
+                <form id="appointmentForm" action="#" method="POST" data-toggle="validator">
+                    <div class="row">
+                        <div class="form-group col-md-12 mb-4">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name"
+                                required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-md-6 mb-4">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email"
+                                required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-md-6 mb-4">
+                            <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number"
+                                required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-md-6 mb-4">
+                            <select name="services" class="form-control form-select" id="services" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="manual_therapy">manual therapy</option>
+                                <option value="chronic_pain">chronic pain</option>
+                                <option value="hand_therapy">hand therapy</option>
+                                <option value="sports_therapy">sports therapy</option>
+                                <option value="cupping_therapy">cupping therapy</option>
+                                <option value="ultrasound_therapy">ultrasound therapy</option>
+                                <option value="laser_therapy">laser therapy</option>
+                                <option value="craniosacral_therapy">craniosacral therapy</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-md-6 mb-5">
+                            <input type="date" name="date" class="form-control" id="date" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="col-md-12 form-group">
+                            <button type="submit" class="btn-default">book appointment</button>
+                            <div id="msgSubmit" class="h3 hidden"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

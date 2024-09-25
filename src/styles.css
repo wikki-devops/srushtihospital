@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-default {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.section {
+    padding: 50px 0px;
+}
+
+.therapy-process {
+    padding: 50px 0px;
+}
+
+.main-footer {
+    padding: 50px 0px 0px;
+}
+
+.section-title h3 {
+    font-size: 20px !important;
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.hero-appointment-form-title h2 span {
+    color: var(--secondary-color);
+}
+
+.footer-content {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-social-links ul li a i {
+    color: var(--white-color);
+    font-size: 28px;
+    transition: all 0.3s ease-in-out;
+    background: var(--secondary-color);
+    padding: 12px;
+    border-radius: 99%;
+}
