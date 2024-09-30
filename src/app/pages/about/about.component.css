@@ -1,0 +1,344 @@
+.about-img figure {
+    display: block;
+    mask-image: url(../../../assets/images/about/mask-image.svg);
+    background-image: url(../../../assets/images/about/mask-image.svg);
+    mask-size: cover;
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+
+.about-image {
+    position: relative;
+    margin-right: 30px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.company-experience {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    width: 153px;
+    height: 200px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.company-experience::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+}
+
+.company-experience-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-experience-counter {
+    position: relative;
+    text-align: center;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.company-experience-counter h2 {
+    font-size: 60px;
+    color: var(--white-color);
+}
+
+.company-experience-content {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.company-experience-content p {
+    color: var(--white-color);
+    margin: 0;
+
+}
+
+.about-us-body {
+    border-top: 1px solid #BB426A;
+    border-bottom: 1px solid #BB426A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px 0;
+    margin-bottom: 40px;
+    color: black;
+}
+
+
+.about-body-item {
+    width: calc(50% - 25px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-counter {
+    width: calc(40% - 10px);
+}
+
+.about-counter h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.about-counter-content {
+    width: calc(60% - 10px);
+}
+
+.about-counter-content p {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.about-us-footer {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-footer-btn {
+    margin-right: 50px;
+    line-height: normal;
+}
+
+.about-company-founder {
+    display: flex;
+    align-items: center;
+}
+
+.company-founder-image {
+    margin-right: 20px;
+}
+
+.company-founder-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.company-founder-content {
+    width: calc(100% - 80px);
+}
+
+.company-founder-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.company-founder-content p {
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+.about-us-content p {
+    color: black;
+}
+
+.need-attention:before {
+    background: #3b243ebd;
+}
+
+.need-attention-list .need-attention-content p {
+    text-align: center;
+}
+
+.solution-plan-body {
+    border-bottom: none;
+}
+
+.solution-plan-body {
+    Margin-bottom: none;
+}
+
+.solution-plan-body {
+    margin-bottom: 0px;
+}
+
+
+/* why choose us */
+.why-choose-us {
+    position: relative;
+    background-size: auto;
+    padding: 100px 0 70px;
+}
+
+
+.why-choose-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.why-choose-image {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.why-choose-image figure {
+    display: block;
+}
+
+.why-choose-image::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    right: 0;
+    bottom: 0;
+    width: 52px;
+    height: 52px;
+    z-index: 1;
+}
+
+.why-choose-image img {
+    aspect-ratio: 1/0.96;
+    object-fit: cover;
+}
+
+.why-choose-item {
+    position: relative;
+    border: 1px solid var(--divider-color);
+    text-align: center;
+    height: calc(100% - 30px);
+    margin-bottom: 30px;
+    padding: 40px;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    cursor: none;
+    border: 1px solid;
+}
+
+.why-choose-item:hover h3 {
+    color: white;
+}
+
+.why-choose-item:hover p {
+    color: white;
+}
+
+.why-choose-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-radius: 0px;
+    background: var(--secondary-color);
+    transition: all 0.4s ease-in-out;
+    height: 100%;
+    z-index: -1;
+}
+
+.why-choose-item:hover:before {
+    top: 0;
+}
+
+.why-choose-item .icon-box {
+    margin-bottom: 20px;
+}
+
+.why-choose-body {
+    margin-bottom: 20px;
+}
+
+.why-choose-body h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.why-choose-body p {
+    margin-bottom: 0;
+}
+
+.why-choose-footer a {
+    position: relative;
+    color: var(--accent-color);
+    text-transform: capitalize;
+    padding-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-choose-footer a:hover {
+    color: var(--primary-color);
+}
+
+.why-choose-footer a::after {
+    content: '\f061';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 14px;
+    color: var(--accent-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-choose-footer a:hover:after {
+    color: var(--primary-color);
+}
+
+.why-choose-us .section-title {
+    text-align: left;
+}
+
+.company-experience {
+    animation: none;
+}
+
+.need-attention {
+    padding: 50px 0;
+    background: url('../../../assets/images/about/section-bg.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+blockquote {
+    background: var(--primary-color) url(../../../assets/images/blockquote.png) no-repeat 35px 40px;
+    background-size: 45px;
+    border-radius: 30px;
+    padding: 30px 30px 30px 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+blockquote p {
+    color: white;
+}

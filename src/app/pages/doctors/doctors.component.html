@@ -1,1 +1,30 @@
-<p>doctors works!</p>
+<app-page-banner [pagetitle]="pagetitle"></app-page-banner>
+<section>
+    <div class="page-team" style="padding:50px 0px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6" *ngFor="let item of doctors">
+                    <div class="doctor-card">
+                        <div class="doctor-card-content">
+                            <div class="doctor-image">
+                                <img src="{{item.image}}" alt="Doctor Image">
+                            </div>
+                            <div class="doctor-info">
+                                <h3>{{item.name}}<br>{{item.specialist}}</h3>
+                                <p>{{item.education}}<br></p>
+                                <div class="doctor-tags">
+                                    Experience : <span class="experience">{{item.years}}</span>
+                                </div>
+                                <div class="doctor-tags">
+                                    Location: <span class="location">{{item.location}}</span>
+                                </div>
+                                <a href="appointment.html" class="btn-default">book appointment</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
