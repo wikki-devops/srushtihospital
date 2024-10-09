@@ -1,0 +1,217 @@
+.quote-block {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-left: 5px solid var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+}
+
+/***     08. Why Choose Us css	  ***/
+/************************************/
+
+.why-choose-us {
+    padding: 50px 0px;
+}
+
+.why-choose-us-2 {
+    position: relative;
+    background: var(--secondary-color);
+    background-position: top center;
+    background-size: auto;
+    padding: 100px 0;
+}
+
+.why-choose-us-2 .icon-star-image {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(10px, -50%);
+}
+
+.why-choose-box-1-2 {
+    position: relative;
+    z-index: 1;
+}
+
+.why-choose-box-1-2 .why-choose-item-2 {
+    flex-direction: row-reverse;
+}
+
+.why-choose-box-1-2 .why-choose-item-2 .icon-box {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.why-choose-box-1-2 .why-choose-item-2 .why-choose-content-2 {
+    text-align: right;
+}
+
+.why-choose-item-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a3a1a194;
+}
+
+.why-choose-item-2:last-child {
+    margin-bottom: 0;
+}
+
+.why-choose-item-2 .icon-box {
+    margin-right: 15px;
+}
+
+.why-choose-item-2 .icon-box img {
+    max-width: 48px;
+}
+
+.why-choose-content-2 {
+    width: calc(100% - 63px);
+}
+
+.why-choose-content-2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.why-choose-content-2 p {
+    margin: 0;
+}
+
+.why-choose-image-2 {
+    position: relative;
+    z-index: 1;
+}
+
+.our-process-content {
+    margin-right: 60px;
+}
+
+.our-process-list {
+    counter-reset: my-counter;
+}
+
+.our-process-item {
+    position: relative;
+    counter-increment: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.our-process-item:last-child {
+    margin-bottom: 0;
+}
+
+.our-process-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(50px, 80%);
+    background: black;
+    width: 1px;
+    height: 100%;
+    z-index: 0;
+}
+
+.our-process-item:last-child:before {
+    display: none;
+}
+
+.our-process-item .icon-box {
+    position: relative;
+    height: 96px;
+    width: 96px;
+    background-color: var(--primary-color);
+    margin: 12px 42px 0 0;
+}
+
+.our-process-item .icon-box:before {
+    counter-increment: my-counter;
+    content: "" counter(my-counter);
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    bottom: auto;
+    left: auto;
+    color: var(--white-color);
+    background: var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Onset", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2em;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}
+
+.our-process-item .icon-box figure {
+    position: relative;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.our-process-item .icon-box figure::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 0px;
+    transform: translate(-100%, 100%);
+    transition: all 0.4s ease-in-out;
+    border: 1px solid var(--primary-color);
+
+}
+
+.icon-box:hover img {
+    filter: brightness(0);
+    /* Make the icon black on hover */
+}
+
+.our-process-item:hover .icon-box figure::after {
+    transform: translate(0);
+}
+
+.our-process-item .icon-box img {
+    position: relative;
+    max-width: 48px;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.process-item-content {
+    width: calc(100% - 126px);
+}
+
+.process-item-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.process-item-content p {
+    margin: 0;
+}

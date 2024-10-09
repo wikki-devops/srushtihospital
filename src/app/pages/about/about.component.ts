@@ -17,6 +17,11 @@ export class AboutComponent {
     { icons: '4.webp', title: 'Surrogacy programmes' },
     { icons: '4.webp', title: 'TESE' },
     { icons: '4.webp', title: 'Donor programmes' },
-
   ];
+
+  doctors: any[] = [
+    { image: 'assets/images/doctors/1.jpg', name: 'Dr.Divya Sivaraman', specialist: "Medical Director", years: "10 years experience", education: "MBBS, DNB, DRCOG, DFFP(UK)", location: "Kotturpuram" },
+    { image: 'assets/images/doctors/2.jpg', name: 'Dr.Priya Prabhakar', specialist: "Chief Executive Officer", years: "25 years experience", education: "MDS, MBA", location: "porur" },
+  ];
+
 }

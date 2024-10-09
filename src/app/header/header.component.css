@@ -18,3 +18,9 @@ header.main-header {
     padding: 0px 20px;
 }
 
+.main-menu ul ul{
+    background-color: var(--primary-color);
+}
+.main-menu ul ul li a{
+    color: var(--white-color);
+}

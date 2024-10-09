@@ -1,0 +1,23 @@
+.contact-info-item {
+    margin-bottom: 0px;
+}
+
+.contact-info-content {
+    display: inline-grid;
+    padding: 20px 0px;
+    color: black;
+}
+
+.contact-info-content a {
+    color: var(--black-color);
+    margin-top: 10px;
+}
+
+.contact-info-content a:hover {
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.contact-information {
+    margin-bottom: 30px;
+}

@@ -92,25 +92,6 @@
     border-radius: 25px;
 }
 
-.medical-service-item:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 100%;
-    border-radius: 0px;
-    background-image: url(../../../assets/images/home/service-bg.png);
-    background-size: cover;
-    transition: all 0.5s ease-in-out;
-    z-index: -1;
-    border-radius: 25px;
-}
-
-.medical-service-item:hover h3,
-.medical-service-item:hover p {
-    color: white;
-}
 
 .medical-service-item:hover::before {
     top: 0;
@@ -195,4 +176,140 @@
 .about-list-content h3 {
     font-size: 16px;
     text-transform: none;
+}
+
+.home-contact-us .home-contact-item {
+    display: block !important;
+}
+
+.home-contact-item .icon-box {
+    width: 120px;
+    height: 120px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.home-contact-item .icon-box::before {
+    display: none;
+}
+
+.home-contact-item .icon-box img {
+    max-width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.home-contact-item:hover .icon-box img {
+    transform: rotateY(25deg);
+}
+
+
+.container .box {
+    position: relative;
+    height: 275px;
+    background: #000;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.container:hover .box {
+    transform: rotateY(25deg);
+}
+
+.container .box:hover~.box {
+    transform: rotateY(-25deg);
+}
+
+.container .box:hover {
+    transform: rotateY(0deg) scale(1.25);
+    z-index: 1;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.container .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .box .imgBx:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #3b243e38, #000);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+    mix-blend-mode: multiply;
+}
+
+.container .box:hover .imgBx:before {
+    opacity: 1;
+}
+
+.container .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.container .box .content h2 {
+    color: #fff;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 20px;
+    transform: translateY(200px);
+    transition-delay: 0.3s;
+}
+
+.container .box:hover .content h2 {
+    transform: translateY(0px);
+}
+
+.container .box .content p {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 14px;
+    transform: translateY(200px);
+    transition-delay: 0.4s;
+}
+
+.container .box:hover .content p {
+    transform: translateY(0px);
+}
+
+.icon-box-own img {
+    box-shadow: 0 0 0 4px rgba(255,255,255,1);
+    padding: 20px;
+    border-radius: 99%;
+    margin-bottom: 20px;
+}
+
+.medical-service-item:hover .icon-box-own img {
+    background: #FFF;
+    color: #702fa8;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
 }

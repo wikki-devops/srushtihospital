@@ -44,7 +44,7 @@
 :root {
 	--primary-color: #3b243e;
 	--secondary-color: #bb426b;
-	--text-color: #153C33B3;
+	--text-color: #000;
 	--accent-color: #bb426b;
 	--white-color: #FFFFFF;
 	--divider-color: #FFFFFF26;
@@ -2817,7 +2817,7 @@ header.main-header .header-sticky.active {
 .service-catagery-list ul li:before {
 	position: absolute;
 	content: '';
-	background: url('../images/arrow-white.svg') no-repeat center center;
+	background: url('../images/arrow-right.png') no-repeat center center;
 	background-color: var(--primary-color);
 	top: 0;
 	right: 0;
