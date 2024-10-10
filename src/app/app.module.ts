@@ -9,7 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { CtaComponent } from './widget/cta/cta.component';
 import { LocationsComponent } from './pages/locations/locations.component';
-import { DoctorsComponent } from './pages/doctors/doctors.component';
+import { IvfPackageComponent } from './pages/ivf-package/ivf-package.component';
 import { PageBannerComponent } from './widget/page-banner/page-banner.component';
 import { PcosComponent } from './pages/fertility/pcos/pcos.component';
 
@@ -22,7 +22,7 @@ import { PcosComponent } from './pages/fertility/pcos/pcos.component';
     AboutComponent,
     CtaComponent,
     LocationsComponent,
-    DoctorsComponent,
+    IvfPackageComponent,
     PageBannerComponent,
     PcosComponent
   ],
