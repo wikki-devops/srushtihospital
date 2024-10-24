@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   services: any[] = [
-    { icons: '5.webp', title: 'Reproductive surgeries', description: "Reproductive surgeries like hysterolaparoscopy, myomectomy, and conservative surgery minimally invasive solutions for infertility and reproductive health issues" },
-    { icons: '1.webp', title: 'Cryopreservation', description: "Preserving Women's Fertility for the Future" },
-    { icons: '3.webp', title: 'Embryology & Fertility Solutions', description: "Advanced techniques in IVF, genetic screening, and fertility preservation." },
-    { icons: '2.webp', title: 'Boosting IVF Success with Acupuncture', description: "Acupuncture reduces stress, enhances hormonal response,aiding fertility treatments." },
-    { icons: '4.webp', title: 'Comprehensive Clinical Fertility Services', description: "Expert solutions for IVF failure, azoospermia, PCOS, and fertility preservation." },
+    { icons: '7.png', title: 'Reproductive surgeries', description: "Reproductive surgeries like hysterolaparoscopy, myomectomy, and conservative surgery minimally invasive solutions for infertility and reproductive health issues" },
+    { icons: '8.png', title: 'Cryopreservation', description: "Preserving Women's Fertility for the Future" },
+    { icons: '9.png', title: 'Embryology & Fertility Solutions', description: "Advanced techniques in IVF, genetic screening, and fertility preservation." },
+    { icons: '10.png', title: 'Boosting IVF Success with Acupuncture', description: "Acupuncture reduces stress, enhances hormonal response,aiding fertility treatments." },
+    { icons: '11.png', title: 'Comprehensive Clinical Fertility Services', description: "Expert solutions for IVF failure, azoospermia, PCOS, and fertility preservation." },
   ];
 
   steps: any[] = [

@@ -182,7 +182,6 @@
     transform: translate(-100%, 100%);
     transition: all 0.4s ease-in-out;
     border: 1px solid var(--primary-color);
-
 }
 
 .icon-box:hover img {
@@ -214,4 +213,8 @@
 
 .process-item-content p {
     margin: 0;
+}
+
+.service-entry ul li {
+    width: 100%;
 }

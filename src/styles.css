@@ -39,3 +39,8 @@
     padding: 12px;
     border-radius: 99%;
 }
+
+.btn-default::before {
+    background-image: url(assets/images/icons/telephonel.png);
+    background-size: 24px;
+}

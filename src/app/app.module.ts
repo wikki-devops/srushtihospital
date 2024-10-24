@@ -12,6 +12,8 @@ import { LocationsComponent } from './pages/locations/locations.component';
 import { IvfPackageComponent } from './pages/ivf-package/ivf-package.component';
 import { PageBannerComponent } from './widget/page-banner/page-banner.component';
 import { PcosComponent } from './pages/fertility/pcos/pcos.component';
+import { ServiceCtaComponent } from './widget/service-cta/service-cta.component';
+import { TestimonialsComponent } from './widget/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { PcosComponent } from './pages/fertility/pcos/pcos.component';
     LocationsComponent,
     IvfPackageComponent,
     PageBannerComponent,
-    PcosComponent
+    PcosComponent,
+    ServiceCtaComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
