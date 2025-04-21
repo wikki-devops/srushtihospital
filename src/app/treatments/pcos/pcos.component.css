@@ -1,0 +1,45 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bubble {
+    border-radius: 12px;
+    line-height: 1.6;
+}
+
+.patient {
+    background-color: #e3f2fd;
+    align-self: flex-start;
+}
+
+.doctor {
+    background-color: #e8f5e9;
+    align-self: flex-end;
+}
+
+.bubble strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.message.patient {
+    flex-direction: row;
+}
+
+.message.doctor {
+    flex-direction: row-reverse;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--base-color);
+}
