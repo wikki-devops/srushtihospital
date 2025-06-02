@@ -1,3 +1,73 @@
 .list-style-01 li {
     list-style: number !important;
 }
+/* chat conversation styles */
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(assets/images/chat-bg.png);
+    background-size: 200px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+}
+
+.message.patient {
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.message.doctor {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.bubble {
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #f4d29a;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    max-width: 80%;
+}
+
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f4d29a;
+}
+
+.message.patient .bubble {
+    background-color: #f4d29a;
+}
+
+.message.patient .bubble:before {
+    left: -10px;
+    top: 20px;
+}
+
+.message.doctor .bubble {
+    background-color: rgb(100, 66, 12);
+    color: white !important;
+}
+
+.message.doctor .bubble:before {
+    right: -10px;
+    top: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid var(--base-color);
+}

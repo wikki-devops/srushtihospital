@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./pcos.component.css']
 })
 export class PcosComponent {
-
+  email: string = 'care@srushtihospital.com';
 }
