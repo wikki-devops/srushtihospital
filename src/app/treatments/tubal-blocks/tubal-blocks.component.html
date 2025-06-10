@@ -1,6 +1,7 @@
-<section data-parallax-background-ratio="0.5" style="background-image: url('assets/images/page-title.jpg');">
+<section data-parallax-background-ratio="0.5" style="background-image: url('assets/images/page-title.jpg');"
+    class="background-position-center-bottom">
     <div class="container">
-        <div class="row align-items-center justify-content-center h-400px">
+        <div class="row align-items-center justify-content-center h-100 p-7 sm-p-0">
             <div class="col-12 position-relative text-center page-title-extra-large">
                 <p data-anime="{ 'translateY': [15, 0], 'opacity': [0,1], 'duration': 600, 'delay': 0, 'staggervalue': 300, 'easing': 'easeOutQuad' }"
                     class="m-auto text-white text-shadow-double-large fw-400 fs-50 sm-fs-40 sm-lh-50">
@@ -16,7 +17,7 @@
         <div class="row">
             <div class="col-lg-8 xs-mb-4"
                 data-anime='{"el":"childs","translateY":[50,0],"opacity":[0,1],"duration":1200,"delay":0,"staggervalue":150,"easing":"easeOutQuad"}'>
-                <h4 class="fs-30 text-base-color fw-900 mb-2">What is PCOS?</h4>
+                <h4 class="fs-30 text-base-color fw-900 mb-2">What is Tubal Block?</h4>
                 <p class="fs-18 text-dark-gray fw-400 mb-2">
                     Your fallopian tubes are delicate pathways that carry the egg from the ovary to the uterus. When
                     these tubes are blocked due to scarring, infection, or other conditions, the egg and sperm can't
@@ -338,94 +339,45 @@
         <h2 class="fw-800 text-dark-gray fs-50 text-center mb-30px">
             Real Success Stories from Srushti
         </h2>
-        <div class="row">
-            <div class="col-12 text-center"
-                data-anime='{ "rotateX": [-40, 0], "opacity": [0,1], "duration": 1200, "delay": 100, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                <div class="swiper swiper-horizontal-3d pt-8 pb-5 lg-pt-10 lg-pb-10 md-pt-12 sm-pt-15 sm-pb-11 swiper-pagination-bottom testimonials-style-04"
-                    data-slider-options='{ "loop": true, "slidesPerView": 1,"centeredSlides":true,"effect":"coverflow","coverflowEffect":{"rotate":0,"stretch":100,"depth":150,"modifier":1.5,"slideShadows":true}, "navigation": { "nextEl": ".swiper-button-next-nav.slider-navigation-style-04", "prevEl": ".swiper-button-previous-nav.slider-navigation-style-04" }, "autoplay": { "delay": 5000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-04", "clickable": true, "dynamicBullets": true }, "breakpoints": { "768": { "slidesPerView": 2 } } }'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-white border-radius-4px">
-                            <div
-                                class="position-relative p-20px pt-12">
-                                <img src="assets/images/patient.png"
-                                    class="absolute-middle-center top-0px rounded-circle w-150px xs-w-100px border border-color-white box-shadow-extra-large border-8">
-                                <div class="testimonials-content">
-                                    <p class="mb-25px">These sounded far better than expected for the price. The cord is
-                                        a tad shorter than others I have purchased so take note. Great for a good value.
-                                    </p>
-                                </div>
-                                <div class="testimonials-author fs-18 mb-5px text-base-color fw-600 d-inline-block">
-                                    Rekha</div>
-                                <div class="testimonials-position fs-15 lh-20">Age :  29 years old</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide bg-white border-radius-4px">
-                            <div
-                                class="position-relative p-20px pt-12">
-                                <img src="assets/images/patient.png"
-                                    class="absolute-middle-center top-0px rounded-circle w-150px xs-w-100px border border-color-white box-shadow-extra-large border-8">
-                                <div class="testimonials-content">
-                                    <span class="text-dark-gray fs-18 lh-30 fw-600 mb-5px d-block">Every element is
-                                        designed beautifully and perfect!</span>
-                                    <p class="mb-25px">These are great headphones for music and movies for the price. I
-                                        have never owned a big-money pair of headphones. It's a good pair of headphones.
-                                    </p>
-                                </div>
-                                <div
-                                    class="testimonials-author fs-18 mb-5px text-gradient-fast-blue-purple fw-600 d-inline-block">
-                                    Shoko Mugikura</div>
-                                <div class="testimonials-position fs-15 lh-20">Google Design</div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide bg-white border-radius-4px">
-                            <div
-                                class="position-relative p-20px pt-12">
-                                <img src="assets/images/patient.png"
-                                    class="absolute-middle-center top-0px rounded-circle w-150px xs-w-100px border border-color-white box-shadow-extra-large border-8">
-                                <div class="testimonials-content">
-                                    <span class="text-dark-gray fs-18 lh-30 fw-600 mb-5px d-block">Simple and easy to
-                                        integrate the website!</span>
-                                    <p class="mb-25px">I was surprised at the sound quality from these phones right out
-                                        of the box. I'm a fan of the sound and normally use with my home equipment.</p>
-                                </div>
-                                <div
-                                    class="testimonials-author fs-18 mb-5px text-gradient-fast-blue-purple fw-600 d-inline-block">
-                                    Herman Miller</div>
-                                <div class="testimonials-position fs-15 lh-20">Apple Design</div>
-                            </div>
-                        </div>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+            <div class="col testimonials-style-01 md-mb-30px">
+                <div class="mt-10px pt-20px pb-20px ps-15px pe-15px">
+                    <img src="assets/images/patient.png" class="w-80px h-80px rounded-circle me-15px" alt="" />
+                    <div class="d-inline-block align-middle lh-20">
+                        <div class="fw-600 text-dark-gray fs-17 mb-5px">Rekha</div>
+                        <span class="fs-15">Age : 29 Years old</span>
                     </div>
                 </div>
+                <div class="position-relative bg-white testimonial-arrow border-radius-10px p-10px">
+                    <span>Diagnosed with a single-sided tubal block. A minor laparoscopic procedure restored her
+                        fertility, and she conceived naturally within 6 months.<br><br></span>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="pt-70px pb-0 sm-pb-20px">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-10">
-                <h1 class="fw-400 text-dark-gray mb-0 lh-70 sm-lh-40 fs-40 sm-fs-20 text-center ">
-                    Supporting women’s health with <strong class="text-base-color">expert care</strong><br>
-                    in <strong class="text-base-color">Fertility, Gynaecology, and Maternity.</strong>
-                </h1>
-                <h1 class="fw-600 text-dark-gray mb-0 lh-70 sm-lh-40 fs-30 sm-fs-20 text-center">
-                    Embrace your strength and flourish with confidence.
-                </h1>
+            <div class="col testimonials-style-01 transition-inner-all md-mb-30px">
+                <div class="mt-10px pt-20px pb-20px ps-15px pe-15px">
+                    <img src="assets/images/patient.png" class="w-80px h-80px rounded-circle me-15px" alt="" />
+                    <div class="d-inline-block align-middle lh-20">
+                        <div class="fw-600 text-dark-gray fs-17 mb-5px">Bhavna</div>
+                        <span class="fs-15">Age : 35 Years old</span>
+                    </div>
+                </div>
+                <div class="position-relative bg-white testimonial-arrow border-radius-10px p-10px">
+                    <span>Severe bilateral block due to undiagnosed pelvic infection. IVF was recommended, and she
+                        delivered healthy twins after her first cycle.<br><br></span>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="pt-20px pb-70px">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-10">
-                <video controls class="border px-0 box-shadow">
-                    <source src="assets/video.mp4" type="video/mp4" class="border">
-                </video>
+            <div class="col testimonials-style-01 transition-inner-all md-mb-30px">
+                <div class="mt-10px pt-20px pb-20px ps-15px pe-15px">
+                    <img src="assets/images/patient.png" class="w-80px h-80px rounded-circle me-15px" alt="" />
+                    <div class="d-inline-block align-middle lh-20">
+                        <div class="fw-600 text-dark-gray fs-17 mb-5px">Nisha</div>
+                        <span class="fs-15">Age : 32 Years old</span>
+                    </div>
+                </div>
+                <div class="position-relative bg-white testimonial-arrow border-radius-10px p-10px">
+                    <span>History of ectopic pregnancy left her with damaged tubes. After emotional healing and
+                        counseling, she chose IVF. Today, she celebrates her son’s third birthday.</span>
+                </div>
             </div>
         </div>
     </div>
@@ -436,16 +388,14 @@
         <div class="row align-items-center justify-content-center position-relative top-30px">
             <div class="col-xl-10 text-center ">
                 <div class="bg-white p-30px m-10px">
-                    <h3 class="text-dark-gray fs-40 mb-15px fw-500 ls-minus-1px">Start your journey to reverse PCOS
-                        today.
-                    </h3>
                     <p class="fs-30 fw-300 mb-20px text-black">
-                        A healthier, happier you is just one consultation away.
+                        If you’ve been trying to conceive and feel unsure about what’s holding you back, let’s talk
                     </p>
+                    <h3 class="text-dark-gray fs-40 mb-15px fw-500 ls-minus-1px">
+                        At Srushti, we treat every woman with compassion, clarity, and confidence
+                    </h3>
                     <p class="fs-18 mb-20px fw-300 fw-600 text-dark-gray">
-                        Taking timely action is key to managing PCOS effectively.<br>
-                        The earlier you begin, the easier it is to estore balance, improve overall well-being, and
-                        maintain long-term results.
+                        Whether it's surgery or IVF, your path to motherhood begins with one simple step — reaching out.
                     </p>
                 </div>
             </div>
@@ -466,85 +416,13 @@
 </section>
 
 
-<section class="pt-70px pb-70px bg-beige">
-    <div class="container">
-        <h2 class="fw-800 text-dark-gray fs-50 text-center mb-30px">
-            Why Choose Srushti Hospital ?
-        </h2>
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2">
-            <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
-                <div class="feature-box p-20px border border-radius-20px d-block h-100"
-                    style="background: rgba(255, 255, 255, 0.6)">
-                    <div class="feature-box-icon">
-                        <img src="assets/images/icons/1.png" class="w-80px h-80px mb-20px">
-                    </div>
-                    <div class="feature-box-content">
-                        <span class="d-inline-block alt-font text-dark-gray fw-500 fs-19 sm-fs-16 mb-10px">
-                            30+ Years of Fertility Excellence
-                        </span>
-                        <p>Trusted by 10,000+ mothers. From a 12-bed hospital to a global name in fertility care.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
-                <div class="feature-box p-20px border border-radius-20px d-block h-100"
-                    style="background: rgba(255, 255, 255, 0.6)">
-                    <div class="feature-box-icon">
-                        <img src="assets/images/icons/2.png" class="w-80px h-80px mb-20px">
-                    </div>
-                    <div class="feature-box-content">
-                        <span class="d-inline-block alt-font text-dark-gray fw-500 fs-19 sm-fs-16 mb-10px">
-                            Personalised & Science-Backed Protocols
-                        </span>
-                        <p>Every treatment is tailored to your unique fertility needs using the latest advancements in
-                            reproductive medicine.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
-                <div class="feature-box p-20px border border-radius-20px d-block h-100"
-                    style="background: rgba(255, 255, 255, 0.6)">
-                    <div class="feature-box-icon">
-                        <img src="assets/images/icons/3.png" class="w-80px h-80px mb-20px">
-                    </div>
-                    <div class="feature-box-content">
-                        <span
-                            class="d-inline-block alt-font text-dark-gray fw-500 fs-19 sm-fs-16 mb-10px">Compassionate,
-                            Women-Led Care</span>
-                        <p>Led by Dr. Samundi Sankari & Dr. Divya Sivaraman, with a legacy of empathy, expertise, and
-                            results.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
-                <div class="feature-box p-20px border border-radius-20px d-block h-100"
-                    style="background: rgba(255, 255, 255, 0.6)">
-                    <div class="feature-box-icon">
-                        <img src="assets/images/icons/4.png" class="w-80px h-80px mb-20px">
-                    </div>
-                    <div class="feature-box-content">
-                        <span class="d-inline-block alt-font text-dark-gray fw-500 fs-19 sm-fs-16 mb-10px">Global Reach,
-                            Homely Support</span>
-                        <p>Patients from across the world choose Srushti for our success rates, comfort stay, and
-                            supportive environment.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section class="pt-70px pb-70px" style="background-color: #64420c;">
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <div class="col-md-12">
                 <h1 class="fw-400 text-white mb-0 lh-70 sm-lh-40 fs-40 sm-fs-20 text-center ">
-                    If you’re experiencing PCOS and trying to plan your pregnancy,<br>
-                    <span class="fw-800">remember - </span> help is here, and you are not alone.
-                </h1>
-                <h1 class="fw-600 text-white mb-0 lh-70 sm-lh-40 fs-30 sm-fs-20 text-center">
-                    Reach out to us for a personalized fertility consultation today
+                    Book a consultation today with Dr. Samundi Sankari and her expert team. Your journey deserves expert
+                    hands and a warm heart
                 </h1>
             </div>
         </div>

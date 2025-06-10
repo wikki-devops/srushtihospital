@@ -1,6 +1,7 @@
 .list-style-01 li {
     list-style: number !important;
 }
+
 /* chat conversation styles */
 .chat {
     display: flex;
@@ -62,6 +63,16 @@
 }
 
 .message.doctor .bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid  rgb(100, 66, 12);
+}
+
+.message.doctor .bubble:before {
     right: -10px;
     top: 20px;
 }
@@ -70,4 +81,19 @@
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid var(--base-color);
+}
+
+.testimonials-style-01 .testimonial-arrow:after {
+    content: "";
+    top: -28px;
+    left: 50px;
+    height: 0;
+    width: 0;
+    z-index: 9;
+    margin-left: -14px;
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    border-width: 14px;
+    border-bottom-color: var(--white);
 }
