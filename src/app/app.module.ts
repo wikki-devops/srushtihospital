@@ -15,6 +15,7 @@ import { UterinePolypsComponent } from './treatments/uterine-polyps/uterine-poly
 import { UterineFibroidsComponent } from './treatments/uterine-fibroids/uterine-fibroids.component';
 import { BicornuateUterusComponent } from './treatments/bicornuate-uterus/bicornuate-uterus.component';
 import { OvarianCystsComponent } from './treatments/ovarian-cysts/ovarian-cysts.component';
+import { WhySrushtiComponent } from './widgets/why-srushti/why-srushti.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { OvarianCystsComponent } from './treatments/ovarian-cysts/ovarian-cysts.
     UterinePolypsComponent,
     UterineFibroidsComponent,
     BicornuateUterusComponent,
-    OvarianCystsComponent
+    OvarianCystsComponent,
+    WhySrushtiComponent
   ],
   imports: [
     BrowserModule,

@@ -17,4 +17,7 @@ header.sticky.sticky-active [data-header-hover="light"] .navbar-nav .nav-link {
         background: var(--base-color) !important;
     }
 
+    .navbar-nav .nav-link {
+        color: white !important;
+    }
 }

@@ -45,11 +45,11 @@
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #f4d29a;
+    border-top: 10px solid #eedac5;
 }
 
 .message.patient .bubble {
-    background-color: #f4d29a;
+    background-color: #eedac5;
 }
 
 .message.patient .bubble:before {
@@ -58,8 +58,8 @@
 }
 
 .message.doctor .bubble {
-    background-color: rgb(100, 66, 12);
-    color: white !important;
+    background-color: #e6e3dc;
+    color: black !important;
 }
 
 .message.doctor .bubble:before {
@@ -69,7 +69,7 @@
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid  rgb(100, 66, 12);
+    border-top: 10px solid #e6e3dc;
 }
 
 .message.doctor .bubble:before {
@@ -96,4 +96,9 @@
     border: solid transparent;
     border-width: 14px;
     border-bottom-color: var(--white);
+}
+
+.text-justify-all {
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
